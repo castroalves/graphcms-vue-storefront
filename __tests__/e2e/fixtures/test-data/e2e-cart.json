@@ -1,0 +1,53 @@
+{
+  "Should successfully add product to cart - Category grid view": {
+    "product": {
+      "category": "women",
+      "name": "Sweater “Dayton“ Crossley blue"
+    }
+  },
+  "Should successfully add product to cart - Category list view": {
+    "product": {
+      "category": "men",
+      "name": "Casual jacket Michael Kors beige"
+    }
+  },
+  "Should successfully add product to cart - Product details page": {
+    "product": {
+      "name": "Jeans Closed blue",
+      "id": "891c95f8-7bf4-4945-9ab5-00906a5f76ba",
+      "slug": "closed-jeans-c3202059-blue"
+    }
+  },
+  "Should remove all products from cart": {
+    "product": {
+      "name": "Jeans Closed blue",
+      "id": 1,
+      "sku": "M0E20000000E59L",
+      "quantity": 2,
+      "size": 24
+    }
+  },
+  "Should remove single product from cart": {
+    "products": [{
+        "name": "Jeans Closed blue",
+        "id": 1,
+        "sku": "M0E20000000E59L",
+        "quantity": 1,
+        "size": 34
+      },
+      {
+        "name": "Sweater “Dayton“ Crossley blue",
+        "id": 1,
+        "sku": "M0E20000000EE0V",
+        "quantity": 1,
+        "size": "XXS"
+      }
+    ],
+    "productToRemove": {
+      "name": "Jeans Closed blue"
+    },
+    "expectedCart": [{
+      "name": "Sweater “Dayton“ Crossley blue"
+    }]
+  }
+}

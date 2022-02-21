@@ -1,0 +1,48 @@
+{
+  "Should contain all size options": {
+    "product": {
+      "id": "891c95f8-7bf4-4945-9ab5-00906a5f76ba",
+      "slug": "closed-jeans-c3202059-blue",
+      "attributes": {
+        "size": [
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "40",
+          "42"
+        ]
+      }
+    }
+  },
+  "Should select correct size option": {
+    "product": {
+      "id": "891c95f8-7bf4-4945-9ab5-00906a5f76ba",
+      "slug": "closed-jeans-c3202059-blue",
+      "attributes": {
+        "size": "42"
+      }
+    }
+  },
+  "Should add correct variant to cart": {
+    "product": {
+      "id": "891c95f8-7bf4-4945-9ab5-00906a5f76ba",
+      "slug": "closed-jeans-c3202059-blue",
+      "attributes": {
+        "size": "24",
+        "color": "blue"
+      }
+    }
+  }
+}

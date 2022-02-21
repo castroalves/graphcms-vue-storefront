@@ -1,0 +1,25 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "fixturesFolder": "__tests__/e2e/fixtures",
+  "integrationFolder": "__tests__/e2e/integration",
+  "pluginsFile": "__tests__/e2e/plugins/index.js",
+  "supportFile": "__tests__/e2e/support/index.js",
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "pageLoadTimeout": 180000,
+  "defaultCommandTimeout": 10000,
+  "screenshotOnRunFailure": true,
+  "screenshotsFolder": "__tests__/e2e/report/assets/screenshots",
+  "video": false,
+  "reporter": "../../../node_modules/mochawesome",
+  "reporterOptions": {
+    "reportDir": "__tests__/e2e/report",
+    "reportFilename": "report",
+    "overwrite": false,
+    "html": false
+  },
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  }
+}

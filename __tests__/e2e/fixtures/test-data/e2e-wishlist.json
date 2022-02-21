@@ -1,0 +1,45 @@
+{
+  "Should successfully add product to wishlist - Category grid view": {
+    "product": {
+      "category": "women",
+      "name": "Pumps ”Flex” Michael Kors black"
+    }
+  },
+  "Should display badge with correct items count": {
+    "products": [
+      {
+        "sku": "M0E20000000DMVI",
+        "id": 1
+      },
+      {
+        "sku": "A0E200000002H56",
+        "id": 1
+      },
+      {
+        "sku": "M0E20000000EE0V",
+        "id": 1
+      }
+    ]
+  },
+  "Should successfully add product to wishlist - Category list view": {
+    "product": {
+      "category": "men",
+      "name": "Jeans Closed blue"
+    }
+  },
+  "Should successfully remove product from wishlist - Category page": {
+		"product": {
+			"category": "women",
+			"sku": "M0E20000000DMVI",
+			"name": "Pumps ”Flex” Michael Kors black",
+			"id": 1
+		}
+	},
+	"Should successfully remove product from wishlist - Wishlist sidebar": {
+		"product": {
+			"sku": "M0E20000000DMVI",
+			"name": "Pumps ”Flex” Michael Kors black",
+			"id": 1
+		}
+	}
+}

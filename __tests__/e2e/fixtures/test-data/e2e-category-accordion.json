@@ -1,0 +1,55 @@
+{
+  "Should successfully show category accordion list": {
+    "header": {
+      "category": "men"
+    }
+  },
+  "Should successfully display category items": {
+    "header": {
+      "category": "women"
+    },
+    "categories": [
+      {
+        "name": "Clothing"
+      },
+      {
+        "name": "Shoes"
+      },
+      {
+        "name": "Bags"
+      }
+    ]
+  },
+  "Should successfully open subcategories for items": {
+    "header": {
+      "category": "men"
+    },
+    "categories": [
+      {
+        "name": "Clothing",
+        "subCategories": [
+          "All",
+          "Jackets",
+          "Tops",
+          "Shirts",
+          "Trousers",
+          "Jeans",
+          "Blazer",
+          "Suits",
+          "T-shirts"
+        ]
+      },
+      {
+        "name": "Shoes",
+        "subCategories": [
+          "All",
+          "Sneakers",
+          "Boots",
+          "Lace-up shoes",
+          "Loafers",
+          "Sandals"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"customer": {
+		"password": "P@ssw0rd123",
+		"firstName": "Joe",
+		"lastName": "Doe",
+		"address": {
+			"shipping": {
+				"streetName": "Vuestorefront Rd.",
+				"streetNumber": "13/37",
+				"city": "Los Angeles",
+				"country": "US",
+				"state": "California",
+				"postalCode": "90001",
+				"phone": "+12345678910"
+			}
+		}
+	},
+	"Should update address": {
+		"customer": {
+			"firstName": "Jane",
+			"lastName": "Smith",
+			"address": {
+				"shipping": {
+					"streetName": "Commercetools Rd.",
+					"streetNumber": "123",
+					"city": "Las Vegas",
+					"country": "US",
+					"state": "Nevada",
+					"postalCode": "89001",
+					"phone": "+12345678911"
+				}
+			}
+		}	
+	}
+}
